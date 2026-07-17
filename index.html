@@ -1,0 +1,1010 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Moniepoint Business Clone</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+   
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+    
+        <link rel="stylesheet" href="style.css" />
+        <script
+          src="https://kit.fontawesome.com/42c74a268e.js"
+          crossorigin="anonymous"
+        ></script>
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="media/images/New folder/apple-touch-icon.png"
+        />
+    
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="media/images/New folder/favicon-32x32.png"
+        />
+    
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="media/images/New folder/favicon-16x16.png"
+        />
+    
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="192x192"
+          href="media/images/New folder/android-chrome-192x192.png"
+        />
+    
+        <link rel="manifest" href="site.webmanifest" />
+    
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+        />
+    
+        <style>
+          :root {
+            --darkblue: #031335;
+          }
+        </style>
+      </head>
+
+</head>
+
+    <!-- <div class="modal fade" id="cashbackModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+          ></button>
+
+          <img src="media/images/cashback.jpeg" alt="Cashback" class="modal-image" />
+
+          <div class="modal-body p-2 px-4 ms-lg-2">
+            <h2 class="modal-title fw-semibold">Cashback with every POS transaction</h2>
+
+            <p class="modal-text fs-5">
+              Get up to ₦5 back on transfers and 12% back on POS payments just
+              for transacting. Valid for POS owners only.
+            </p>
+
+            <button class="learn-btn">Learn how to earn</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- ================= HEADER ================= -->
+    <header class="header-fixed">
+      <section class="policy d-flex justify-content-center align-items-center">
+        <div class="policy-one">
+          <p class="web mb-0">
+            This website uses cookies to enhance your experience. Learn more
+            here:
+          </p>
+        </div>
+
+        <div class="policy-two d-flex">
+          <div class="poli-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+
+          <div class="poli-2">
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </section>
+      <div class="top-bar">
+        <div class="bus-bar">Business</div>
+        <div class="per-bar">Personal</div>
+      </div>
+      <nav class="barnav navbar navbar-expand-lg d-sm-flex">
+        <div class="container">
+          <div class="d-flex align-items-center">
+            <a class="navbar-brand d-flex align-items-center mb-0" href="#">
+              <img
+                src="https://moniepoint.com/logo-mfb-white.png"
+                alt="Moniepoint Logo"
+                class="img-moni"
+              />
+
+              <span
+                class="business text-light ms-4 fs-6 fw-normal py-2 px-3 rounded-pill"
+              >
+                Business
+              </span>
+            </a>
+
+            <a href="#" class="pers py-2 px-3 fw-normal fs-6 rounded-pill">
+              Personal
+            </a>
+          </div>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="link-bar collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <!-- ================= MOBILE PRODUCTS ================= -->
+              <li class="comm nav-item mobile-product">
+                <a
+                  class="nav-link d-flex justify-content-between align-items-center"
+                  data-bs-toggle="collapse"
+                  href="#mobileProducts"
+                  role="button"
+                >
+                  Products
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+
+                <div class="collapse" id="mobileProducts">
+                  <!-- ================= Banking ================= -->
+
+                  <div class="mobile-section">
+                    <a
+                      class="nav-link d-flex justify-content-between align-items-center"
+                      data-bs-toggle="collapse"
+                      href="#bankingMenu"
+                    >
+                      Banking
+
+                      <i class="fa-solid fa-chevron-down small-arrow"></i>
+                    </a>
+
+                    <div class="collapse" id="bankingMenu">
+                      <a href="#" class="mobile-link">
+                        <i class="fa-solid fa-city"></i>
+                        Business Account
+                      </a>
+
+                      <a href="#" class="mobile-link">
+                        <i class="fa-solid fa-hashtag"></i>
+                        USSD
+                      </a>
+
+                      <a href="#" class="mobile-link">
+                        <i class="fa-solid fa-piggy-bank"></i>
+                        Savings
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- ================= Credit ================= -->
+
+                  <div class="mobile-section">
+                    <a
+                      class="nav-link d-flex justify-content-between align-items-center"
+                      data-bs-toggle="collapse"
+                      href="#creditMenu"
+                    >
+                      Credit
+
+                      <i class="fa-solid fa-chevron-down small-arrow"></i>
+                    </a>
+
+                    <div class="collapse" id="creditMenu">
+                      <a href="#" class="mobile-link">
+                        <i class="fa-solid fa-money-bill"></i>
+                        Working Capital Loans
+                      </a>
+
+                      <a href="#" class="mobile-link">
+                        <i class="fa-solid fa-wallet"></i>
+                        Overdraft
+                        <small class="smal rounded-pill">Coming Soon</small>
+                      </a>
+
+                      <a href="#" class="mobile-link">
+                        <i class="fa-solid fa-credit-card"></i>
+                        Salary Advance
+                        <small class="smal rounded-pill">Coming Soon</small>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- ================= Payments ================= -->
+
+                  <div class="mobile-section">
+                    <a
+                      class="nav-link d-flex justify-content-between align-items-center"
+                      data-bs-toggle="collapse"
+                      href="#paymentMenu"
+                    >
+                      Payments
+
+                      <i class="fa-solid fa-chevron-down small-arrow"></i>
+                    </a>
+
+                    <div class="collapse" id="paymentMenu">
+                      <a href="#" class="mobile-link">
+                        <i class="fa-solid fa-building-columns"></i>
+                        POS Terminals
+                      </a>
+
+                      <a href="#" class="mobile-link">
+                        <i class="fa-brands fa-mendeley"></i>
+                        Web Payments (Monnify)
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- ================= Business Management ================= -->
+
+                  <div class="mobile-section">
+                    <a
+                      class="nav-link d-flex justify-content-between align-items-center"
+                      data-bs-toggle="collapse"
+                      href="#managementMenu"
+                    >
+                      Business Management
+
+                      <i class="fa-solid fa-chevron-down small-arrow"></i>
+                    </a>
+
+                    <div class="collapse" id="managementMenu">
+                      <a href="#" class="mobile-link">
+                        <i class="fa-solid fa-credit-card"></i>
+                        Expense Cards
+                      </a>
+
+                      <a href="#" class="mobile-link">
+                        <i class="fa-solid fa-building"></i>
+                        CAC Registration
+                      </a>
+
+                      <a href="#" class="mobile-link">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        Moniebook (Bookkeeping)
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <!-- ================= MOBILE COMPANY ================= -->
+
+              <li class="comm nav-item mobile-company">
+                <a
+                  class="nav-link d-flex justify-content-between align-items-center"
+                  data-bs-toggle="collapse"
+                  href="#mobileCompany"
+                  role="button"
+                >
+                  Company
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+
+                <div class="collapse" id="mobileCompany">
+                  <a href="#" class="mobile-link">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    Culture
+                  </a>
+
+                  <a href="#" class="mobile-link">
+                    <i class="fa-solid fa-briefcase"></i>
+                    Careers
+                  </a>
+
+                  <a href="#" class="mobile-link">
+                    <i class="fa-solid fa-newspaper"></i>
+                    Press
+                  </a>
+                </div>
+              </li>
+              <!-- Products -->
+              <li class="nav-item mobile-dropdown dropdown">
+                <a
+                  class="nav-link dropdown-toggle d-flex align-items-center gap-2"
+                  href="#"
+                  id="productsDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Products
+                </a>
+
+                <div
+                  class="dropdown-menu p-4 shadow border-0 rounded-4 left-menu"
+                >
+                  <div class="item banking-item">
+                    <h5>Banking</h5>
+                    <p>Business and personal banking accounts</p>
+
+                    <div class="right-panel py-lg-1">
+                      <h4 style="color: #0357ee">
+                        <i class="fa-solid fa-city"></i>
+                        Business Account
+                      </h4>
+
+                      <p class="ms-lg-2">
+                        Get a free bank account to power your business.
+                      </p>
+
+                      <h4 class="mt-lg-4">
+                        <i class="fa-solid fa-hashtag"></i>
+                        USSD
+                      </h4>
+
+                      <p class="ms-lg-2">
+                        Dial *5573# for easy offline banking.
+                      </p>
+
+                      <h4 class="mt-lg-4">
+                        <i class="fa-solid fa-piggy-bank"></i>
+                        Savings
+                      </h4>
+
+                      <p class="ms-lg-2">Save and earn up to 17.5% interest.</p>
+                    </div>
+                  </div>
+
+                  <!-- Credit -->
+                  <div class="item credit-item">
+                    <h5>Credit</h5>
+                    <p>Business and individual loans</p>
+
+                    <div class="right-panel banking-panel">
+                      <h4 style="color: #0357ee">
+                        <i class="fa-solid fa-money-bill"></i>
+                        Working Capital Loans
+                      </h4>
+
+                      <p class="ms-lg-2">
+                        Flexible loans that help your business grow.
+                      </p>
+
+                      <h4 class="mt-lg-4">
+                        <i class="fa-solid fa-wallet"></i>
+                        Overdraft
+                        <small class="smal rounded-pill">Coming soon</small>
+                      </h4>
+
+                      <p class="ms-lg-2">
+                        Keep your business going, even when money is low.
+                      </p>
+
+                      <h4 class="mt-lg-4">
+                        <i class="fa-solid fa-credit-card"></i>
+                        Salary Advance
+                        <small class="smal rounded-pill">Coming soon</small>
+                      </h4>
+
+                      <p class="ms-lg-2">
+                        Provide salary advance for your employees.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Payments -->
+                  <div class="item payments-item">
+                    <h5>Payments</h5>
+                    <p>Accept payments from anywhere</p>
+
+                    <div class="right-panel paymet payments-panel">
+                      <h4 style="color: #0357ee">
+                        <i class="fa-solid fa-building-columns"></i>
+                        POS Terminals
+                      </h4>
+
+                      <p class="ms-lg-2 line">
+                        Accept card and transfer payments with the Moniepoint
+                        POS terminal.
+                      </p>
+
+                      <h4 class="mt-lg-4">
+                        <i class="fa-brands fa-mendeley"></i>
+                        Web Payments (Monnify)
+                      </h4>
+
+                      <p class="ms-lg-2">
+                        Collect web payments with ease using Monnify.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Business Management -->
+                  <div class="item management-item">
+                    <h5>Business Management</h5>
+                    <p>Easy business money management & reports</p>
+
+                    <div class="right-panel management-panel">
+                      <h4 style="color: #0357ee">
+                        <i class="fa-solid fa-credit-card"></i>
+                        Expense Cards
+                      </h4>
+
+                      <p class="ms-lg-2">
+                        Get a secure card for your business expenses.
+                      </p>
+
+                      <h4 class="mt-lg-4">
+                        <i class="fa-solid fa-building"></i>
+                        CAC Registration
+                      </h4>
+
+                      <p class="ms-lg-2 line">
+                        Easily register your business name via our banking
+                        dashboard.
+                      </p>
+
+                      <h4 class="mt-lg-4">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        Moniebook (Bookkeeping)
+                      </h4>
+
+                      <p class="ms-lg-2 line">
+                        Manage your business finances with ease.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Company -->
+              <li class="nav-item dropdown company-dropdown">
+                <a
+                  class="nav-link dropdown-toggle d-flex align-items-center gap-2"
+                  href="#"
+                  id="companyDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Company
+                </a>
+
+                <div
+                  class="dropdown-menu company-menu p-4 shadow border-0 rounded-4"
+                >
+                  <div class="company-item">
+                    <div class="company-icon">
+                      <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
+
+                    <h5>Culture</h5>
+                  </div>
+
+                  <div class="company-item">
+                    <div class="company-icon">
+                      <i class="fa-solid fa-briefcase"></i>
+                    </div>
+
+                    <h5>Careers</h5>
+                  </div>
+
+                  <div class="company-item">
+                    <div class="company-icon">
+                      <i class="fa-solid fa-newspaper"></i>
+                    </div>
+
+                    <h5>Press</h5>
+                  </div>
+                </div>
+              </li>
+
+              <!-- About -->
+              <li class="nav-item">
+                <a
+                  class="persi py-1 px-2 nav-link rounded-pill mt-lg-1"
+                  href="#"
+                  >About</a
+                >
+              </li>
+
+              <!-- Contact -->
+              <li class="nav-item">
+                <a
+                  class="persi py-1 px-2 nav-link rounded-pill mt-lg-1"
+                  href="#"
+                  >Contact</a
+                >
+              </li>
+
+              <!-- Blog -->
+              <li class="nav-item">
+                <a
+                  class="persi py-1 px-2 nav-link rounded-pill mt-lg-1"
+                  href="#"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+          </div>
+          <button class="sign in" style="width: 110px;height: 6dvh;border-radius: 200px; color: black; background-color: #C4E9FD; font-size: 18px; font-family: sans-serif; "> sign in </button>
+
+
+
+
+           <div class="col-lg-2 text-lg-end">
+
+                <button class="country-footer">
+
+                    <img src="https://moniepoint.com/flags/nig.svg" alt="">
+
+                    <i class="bi bi-chevron-down"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+      </nav>
+      
+    </header>
+    <!-- ================= MAIN ================= -->
+    <main></main>
+    <!-- ================= script ================= -->
+    <script>
+      window.addEventListener("load", () => {
+        const cashbackModal = new bootstrap.Modal(
+          document.getElementById("cashbackModal"),
+        );
+
+        cashbackModal.show();
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- section7 -->
+      
+<section class="nice-sect w-100 position-relative bg-white overflow-hidden">
+        <div class="d-flex justify-content-between mx-auto flex-wrap align-items-start pt-5 pt-md-5" style="padding-top: 60px; width: 90%;">
+            <h2 class="h2 mb-0 fw-bold" style="font-size: 40px; color: #132A5E; line-height: 1.25;">Don’t just take our <br class="word">word for it.</h2>
+            <div class="d-none d-md-flex gap-3">
+                <div style="height: 60px; width: 60px; background-image: url(https://img.youtube.com/vi/VPMcbBKTu-o/hqdefault.jpg); border-radius: 50%; background-size: cover; background-position: center;"></div>
+                <div style="height: 60px; width: 60px; background-image: url(https://img.youtube.com/vi/UkpSnqfB7VA/hqdefault.jpg); border-radius: 50%; background-size: cover; background-position: center;"></div>
+                <div style="height: 60px; width: 60px; background-image: url(https://img.youtube.com/vi/dAQt_Jf12_Q/hqdefault.jpg); border-radius: 50%; background-size: cover; background-position: center;"></div>
+                <div style="height: 60px; width: 60px; background-image: url(https://img.youtube.com/vi/SdVnlo5Opco/hqdefault.jpg); border-radius: 50%; background-size: cover; background-position: center;"></div>
+            </div>
+            <div class="flex-button d-flex gap-3" >
+                <div>
+                    <button class="btn rounded-circle p-2" style="background:#F8FAFD; font-size: 10px;" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                </div>
+                <div >
+                    <button class="btn rounded-circle p-2" style="background:#F8FAFD; font-size: 10px;" type="button" data-bs-target="#carouselExample" data-bs-slide="next"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="flex-img1 d-flex gap-4 mx-auto" style="margin: 20px 0px; width: 90%;">
+            <div style="height: 50px; width: 50px; background-image: url(https://img.youtube.com/vi/VPMcbBKTu-o/hqdefault.jpg); border-radius: 50%; background-size: cover; background-position: center;"></div>
+            <div style="height: 50px; width: 50px; background-image: url(https://img.youtube.com/vi/UkpSnqfB7VA/hqdefault.jpg); border-radius: 50%; background-size: cover; background-position: center;"></div>
+            <div style="height: 50px; width: 50px; background-image: url(https://img.youtube.com/vi/dAQt_Jf12_Q/hqdefault.jpg); border-radius: 50%; background-size: cover; background-position: center;"></div>
+            <div style="height: 50px; width: 50px; background-image: url(https://img.youtube.com/vi/SdVnlo5Opco/hqdefault.jpg); border-radius: 50%; background-size: cover; background-position: center;"></div>
+        </div>
+        <h2 class="nice" style="z-index: 1; position: absolute; top: 190px; left: 50px; font-size: 100px; color: #EEF4FE;" >99</h2>
+        <div class="d-flex justify-content-between mx-auto position-relative" style="width: 90%; padding-bottom: 100px; z-index: 2;">
+            <div id="carouselExample" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="iframe1 col-lg-8" style="display: none;">
+                                <div><iframe class="iframe1" style="display: none; border-radius: 15px;" width="100%" height="500" src="https://www.youtube.com/embed/dAQt_Jf12_Q" title="The Good Beach - &quot;Using Moniepoint&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                            </div>
+                            <div class="col-12 col-lg-4 pe-lg-5">
+                                <p class="h2-2 mb-0" style="z-index: 10; margin-top: 40px; font-size: 19px;">Using Moniepoint for the last few months has been pure bliss for us as a business. Our customers are able to come in and have seamless transactions done in seconds, and that is a very great strategy for us as a business to strengthen our relationship with our consumers.</p>
+                                <hr>
+                                <h2 style="font-size: 20px;">Anita Ukpong</h2>
+                                <p class="marketing">Marketing Manager, The Good Beach</p>
+                                <div class="button-1 d-flex gap-3" style="margin-top: 100px;">
+                                    <button class="btn rounded-circle p-4" style="background:#F8FAFD;" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                                    <button class="btn rounded-circle p-4" style="background:#F8FAFD;" type="button" data-bs-target="#carouselExample" data-bs-slide="next"><i class="fa-solid fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                            <div class="iframe11 col-lg-8">
+                                <div><iframe style="border-radius: 15px;" width="100%" height="500" src="https://www.youtube.com/embed/dAQt_Jf12_Q" title="The Good Beach - &quot;Using Moniepoint&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="iframe1 col-lg-8" style="display: none;">
+                                <div><iframe class="iframe1" style="display: none; border-radius: 15px;" width="100%" height="500" src="https://www.youtube.com/embed/SdVnlo5Opco" title="Dreamers Who Shape Nigeria: Hospitality - Tobi Hamilton, Founder, The House." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                            </div>
+                            <div class="col-lg-4 pe-5">
+                                <p class="h2-2" style="margin-top: 40px; font-size: 19px;">Moniepoint has empowered my staff to serve our customers better. It has also empowered our customers to get their transactions done quicker, and most importantly, aids seamless business.</p>
+                                <hr>
+                                <h2 style="font-size: 20px;">Tobi Hamilton</h2>
+                                <p class="marketing">Founder, The House</p>
+                                <div class="button-1 d-flex gap-3" style="margin-top: 100px;">
+                                    <button class="btn rounded-circle p-4" style="background:#F8FAFD;" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                                    <button class="btn rounded-circle p-4" style="background:#F8FAFD;" type="button" data-bs-target="#carouselExample" data-bs-slide="next"><i class="fa-solid fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                            <div class="iframe11 col-lg-8">
+                                <div><iframe style="border-radius: 15px;" width="100%" height="500" src="https://www.youtube.com/embed/SdVnlo5Opco" title="Dreamers Who Shape Nigeria: Hospitality - Tobi Hamilton, Founder, The House." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="iframe1 col-lg-8" style="display: none;">
+                                <div><iframe class="iframe1" style="display: none; border-radius: 15px;" width="100%" height="500" src="https://www.youtube.com/embed/VPMcbBKTu-o" title="&quot;Moniepoint Loan Helped Me&quot; - Business Owner, Mr Joseph" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                            </div>
+                            <div class="col-lg-4 pe-5">
+                                <p class="h2-2" style=" margin-top: 40px; font-size: 19px;">I was robbed and found my shop open one fateful morning. I needed some money to cover up for the loss, and my business relationship manager mentioned the Moniepoint Loan to me. I needed it, and they gave me. Moniepoint has been a big help to my business. Without them, business will not be able to function.</p>
+                                <hr>
+                                <h2 style="font-size: 20px;">Mr Joseph</h2>
+                                <p class="marketing">Business Owner</p>
+                                <div class="button-1 d-flex gap-3" style="margin-top: 100px;">
+                                    <button class="btn rounded-circle p-4" style="background:#F8FAFD;" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                                    <button class="btn rounded-circle p-4" style="background:#F8FAFD;" type="button" data-bs-target="#carouselExample" data-bs-slide="next"><i class="fa-solid fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                            <div class="iframe11 col-lg-8">
+                                <div><iframe style="border-radius: 15px;" width="100%" height="500" src="https://www.youtube.com/embed/VPMcbBKTu-o" title="&quot;Moniepoint Loan Helped Me&quot; - Business Owner, Mr Joseph" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="iframe1 col-lg-8" style="display: none;">
+                                <div><iframe class="iframe1" style="display: none; border-radius: 15px;" width="100%" height="500" src="https://www.youtube.com/embed/UkpSnqfB7VA" title="&quot;Moniepoint Is Exceptional&quot; - Uyai Beauty Hub." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                            </div>
+                            <div class="col-lg-4 pe-5">
+                                <p class="h2-2" style="z-index: 10; margin-top: 40px; font-size: 19px;">Moniepoint is exceptional! Imagine someone walking into your store, and telling you they want to use Moniepoint. Moniepoint is, and has been the best.</p>
+                                <hr>
+                                <h2 style="font-size: 20px;">Mrs Nsisong</h2>
+                                <p class="marketing">Co-Founder, Uyai Beauty Hub</p>
+                                <div class="burron-1 d-flex gap-3" style="margin-top: 100px;">
+                                    <button class="btn rounded-circle p-4" style="background:#F8FAFD;" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                                    <button class="btn rounded-circle p-4" style="background:#F8FAFD;" type="button" data-bs-target="#carouselExample" data-bs-slide="next"><i class="fa-solid fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                            <div class="iframe11 col-lg-8">
+                                <div><iframe style="border-radius: 15px;" width="100%" height="500" src="https://www.youtube.com/embed/UkpSnqfB7VA" title="&quot;Moniepoint Is Exceptional&quot; - Uyai Beauty Hub." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section style="background-color: #F7F9FD;">
+        <div>
+            <div>
+                <div class=" d-block d-lg-flex ms-3" style="gap: 250px;">
+                    <h2 class="fw-bold fs-4" style="color: #092256;">What's more?</h2>
+                    <p class="fs-5" style="color: #5071A3;">Explore more ways to take your<br> business to the next level</p>
+                </div>
+                <div class="d-block d-lg-flex w-100 mb-sm-3">
+                    <div class="ms-3 me-3 mb-3" style="border: 1px solid #F0F8FD;border-radius: 20px;background-color: white;">
+                        <div class="p-5">
+                            <img src="https://moniepoint.com/benefits/manage.svg" alt="" class="mt-3">
+                            <div class="mt-4">
+                                <h3 class="fw-bold" style="color: #092256; font-size: 18px; font-weight: 400;">Manage Multiple Businesses</h3>
+                                <p class="fs-6 display-6 fw-light" style="color: #7D8BAB;">Easily handle multiple businesses in one place</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ms-3 me-3 mb-3" style="border: 1px solid #F0F8FD; border-radius: 20px; background-color: white;">
+                        <div class="p-5">
+                            <img src="https://moniepoint.com/benefits/performance.svg" alt="" class="mt-3">
+                            <div class="mt-4">
+                                <h3 class="fw-bold" style="color: #092256; font-size: 18px; font-weight: 400;">Businesses Performance</h3>
+                                <p class="fs-6 display-6 fw-light" style="color: #7D8BAB;">Keep your finger on the pulse of your business</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ms-3 me-3 mb-3" style="border: 1px solid #F0F8FD; border-radius: 20px; background-color: white;">
+                        <div class="p-5">
+                            <img src="https://moniepoint.com/benefits/help.svg" alt="" class="mt-3">
+                            <div class="mt-4">
+                                <h3 class="fw-bold" style="color: #092256; font-size: 18px; font-weight: 400;">Businesses Performance</h3>
+                                <p class="fs-6 display-6 fw-light" style="color: #7D8BAB;">Quick and accessible support whenever you need it</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <div class=" container d-flex justify-content-between gap-1 mt-5 mb-4">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card" style="width: 22rem;">
+                        <img src="https://eu-west-2.graphassets.com/AxQ8YTi9LTCrOeR0pPuwfz/output=format:webp/cmp110qd1w0tz07mje1el2hhd" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <div class=" d-flex justify-content-between">
+                                <h6 class=" text-primary" style="font-size: 13px;">Business Tips</h6>
+                                <p class="fs-6">
+                                    May 11, 2026
+                                </p>
+                            </div>
+                            <h4 class="card-title fs-5">7 Profitable Home-based<br> Businesses for Beginners (2026)</h4>
+                            <p class=" mt-2">by Chidinma Nwonye</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 22rem;">
+                <img src="https://eu-west-2.graphassets.com/AxQ8YTi9LTCrOeR0pPuwfz/output=format:webp/cmp10m8ewvgtt07mhuehoa2ms" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <h6 class=" text-primary" style="font-size: 13px;">Products Updates</h6>
+                        <p class="fs-6">
+                            May 11, 2026
+                        </p>
+                    </div>
+                    <h4 class="card-title fs-5">Forgot Your Mobile Banking <br>Password? Here's How to Reset It</h4>
+                    <p class=" mt-2">by Chidinma Nwonye</p>
+
+                </div>
+            </div>
+            <div class="card" style="width: 22rem;">
+                <img src="https://eu-west-2.graphassets.com/AxQ8YTi9LTCrOeR0pPuwfz/output=format:webp/cmp109ljmv9m507mjen4wqwmq" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <h6 class=" text-primary " style="font-size: 13px;">Business Tips</h6>
+                        <p class="fs-6">./media/Artboard 1 (1).webp
+                            May 11, 2026
+                        </p>
+                    </div>
+                    <h4 class="card-title fs-5">Stop Leaving your Bank Account<br> Vulnerable: Digital Login
+                        Security<br> Best Practices.</h4>
+                    <p class=" mt-2">by Chidinma Nwonye</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+<section class="enjoy-biz" style="height: 50dvh;">
+        <div>
+            <div class=" maximum d-flex flex-column" style="padding: 120px;">
+                <div class="d-flex justify-content-center align-items-center">
+                    <h2 class="text-light fw-bold  text-center">
+                        Enjoy a business solution designed to help <br> you grow
+                    </h2>
+                </div>
+                <a class="btn btn-primary align-content-center btn-lg my-4 py-3 px-5" href="#" role="button" style="background-color: #FFF0C2; color: black; cursor: pointer; margin: auto;">Open an account <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+<footer class="footer-section">
+
+    <div class="container">
+
+        <div class="row gy-5">
+
+            <!-- LEFT -->
+            <div class="col-lg-5">
+
+                <img src="https://moniepoint.com/logo-mfb-white.png" class="footer-logo mb-4">
+
+                <p class="footer-text">
+                    Moniepoint Microfinance Bank Limited is authorised and regulated by the Central Bank of Nigeria to offer banking services. Deposits are insured by the Nigerian Deposit Insurance Corporation (NDIC).
+                </p>
+
+                <div class="store-buttons mt-4">
+
+                    <img src="./images/Screenshot_16-7-2026_103739_moniepoint.com.jpeg" alt="asss">
+
+                    <img src="./images/Screenshot_16-7-2026_10382_moniepoint.com.jpeg" alt="assss">
+
+                </div>
+
+            </div>
+     
+            <!-- RIGHT -->
+
+            <div class="col-lg-7">
+
+                <div class="row">
+
+                    <div class="col-md-3" style="line-height: 0.9;">
+
+                        <h5>For Business</h5>
+
+                        <a href="#">Business Account</a>
+
+                        <a href="#">Point of Sale Terminal</a>
+
+                        <a href="#">Loan</a>
+
+                        <a href="#">Expense Card</a>
+
+                        <a href="#">Moniebook</a>
+
+                    </div>
+
+                    <div class="col-md-3"style="line-height: 0.9;" >
+
+                        <h5>For Personal</h5>
+
+                        <a href="#">Instant Debit Card</a>
+
+                        <a href="#">Personal Account</a>
+
+                        <a href="#">Payment</a>
+
+                        <a href="#">Personal Banking</a>
+
+                    </div>
+
+                    <div class="col-md-3" style="line-height: 0.9;">
+
+                        <h5>Company</h5>
+
+                        <a href="#">About Us</a>
+
+                        <a href="#">Culture</a>
+
+                        <a href="#">Join Our Team</a>
+
+                        <a href="#">Press & Media</a>
+
+                        <a href="#">Contact Us</a>
+
+                    </div>
+
+                    <div class="col-md-3"style="line-height: 0.9;">
+
+                        <h5>Resources</h5>
+
+                        <a href="#">Moniepoint Blog</a>
+
+                        <a href="#">Help Centre</a>
+
+                        <a href="#">Learning Centre</a>
+
+                        <a href="#">Whistleblower Policy</a>
+
+                        <a href="#">IMS Policy</a>
+
+                        <a href="#">Report a Vulnerability</a>
+
+                        <a href="#">Informal Economy Report</a>
+
+                        <a href="#">Security Trust Center</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- SECOND ROW -->
+
+        <div class="row second-footer" >
+
+            <div class="col-lg-5" >
+
+                <h6 class="address">
+
+                    Plot 7A, Block 4,<br>
+
+                    Admiralty Road,<br>
+
+                    Lekki Phase 1, Lagos State.
+
+                </h6>
+
+                <p>
+
+                    support@moniepoint.com
+
+                    <br>
+
+                    +234 201 888 9990
+
+                </p>
+
+            </div>
+
+            <div class="col-lg-3">
+
+                <h6>Connect with us</h6>
+
+                <div class="social-icons">
+
+                    <i class="bi bi-linkedin"></i>
+
+                    <i class="bi bi-twitter-x"></i>
+
+                    <i class="bi bi-facebook"></i>
+
+                    <i class="bi bi-instagram"></i>
+
+                    <i class="bi bi-youtube"></i>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-2">
+
+                <h6>Find us</h6>
+
+                <a href="#">Find a location</a>
+
+            </div>
+
+            <div class="col-lg-2 text-lg-end">
+
+                <button class="country-footer">
+
+                    <img src="https://moniepoint.com/flags/nig.svg" alt=""> Nigeria
+
+                    <i class="bi bi-chevron-down"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <!-- THIRD ROW -->
+
+        <div class="copyright">
+
+            <div>
+
+                Copyright © 2026, Moniepoint
+
+            </div>
+
+            <div>
+
+                <a href="#">Privacy Policy</a>
+
+                <a href="#">Cookie Policy</a>
+
+            </div>
+
+        </div>
+
+        <p class="legal">
+
+            © 2026. Moniepoint is a bank with its services provided by Moniepoint MFB Limited and duly licensed by the Central Bank of Nigeria. Unauthorised reproduction or redistribution of copyrighted materials on this website and Moniepoint's digital media pages is strictly prohibited. By clicking on some of the links above, you will leave Moniepoint's website and be directed to a third-party website. The privacy practices of those third parties may differ from those of Moniepoint. We recommend you review the privacy statements of those third-party websites, as Moniepoint is not responsible for those third parties' privacy or security practices. Additional disclosures can be found in the resources section of our website.
+
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

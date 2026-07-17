@@ -1,0 +1,23 @@
+@media (max-width:991px){
+
+    .navbar-nav{
+        text-align:center;
+        margin:25px 0;
+    }
+
+    .d-lg-flex{
+        text-align:center;
+    }
+
+    .country,
+    .signin{
+        display:block;
+        margin-bottom:15px;
+    }
+
+    .get-started{
+        display:inline-block;
+        margin-bottom:20px;
+    }
+
+}
